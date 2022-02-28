@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Players from "../Players";
+import GridView from "../ViewTable";
 import Game from "../Game";
 import Catalog from "../Catalog";
 import Register from "../Register";
@@ -13,12 +13,12 @@ export default function Layout() {
       <Header />
       <Routes>
         <Route path="/game/*" element={<Game />} />
-        <Route path="/players/*" element={<Players />} />
+        <Route path="/players/*" element={<GridView />} />
         <Route path="/catalog/*" element={<Catalog />} />
         <Route path="/register/*" element={<Register />} />
         <Route index element={<Home />} />
       </Routes>
-      <Footer />
+      {/*<Footer />*/}
     </>
   );
 }

@@ -22,9 +22,9 @@ export default function Header() {
       <Link className="header-item" to="/register">
         Register
       </Link>
-      <Link className="header-item" to="/catalog">
+      {/*<Link className="header-item" to="/catalog">
         Catalog
-      </Link>
+  </Link>*/}
       <Link className="header-item" to="/players">
         Players
       </Link>
