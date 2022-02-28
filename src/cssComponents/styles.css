@@ -1,0 +1,55 @@
+.app {
+    font-family: sans-serif;
+  }
+  
+  header {
+    padding: 1em;
+    margin: 0.5em;
+    font-weight: 700;
+    background-color: #ffffff;
+    border: 2px solid black;
+    line-height: 2;
+  }
+  
+  .header-item {
+    margin-right: 1em;
+  }
+  
+  .two-column {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  nav {
+    margin: 0.5em;
+    padding: 1em;
+    border: 2px solid black;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-bottom: 0.5em;
+  }
+  
+  .content {
+    margin: 0.5em;
+    padding: 1em;
+    border: 2px solid black;
+  }
+  
+  footer {
+    margin: 0.5em;
+    padding: 1em;
+    background-color: lightgray;
+    border: 2px solid black;
+    text-align: center;
+  }
+  
+  .footer-item {
+    margin-right: 1em;
+  }
+  
